@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* Reset
+----------------------------------------*/
+body {
+    background-image: url(../img/bg-gray.png);
+    color: #333;
+    font-family: Chivo, Helvetica, serif;
+    font-size: 15px;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    -webkit-text-size-adjust:100%;
+    font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+}
+body{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;color:#000;margin:0;padding:0;}
+*{
+    text-decoration:none;
+    padding:0;
+    margin:0;
+}
+.float_f{float:left;}.clear_b{clear:both;}
+a {
+    color: #35BFFF;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #91DCFF;
+}
+/* Header
+----------------------------------------*/
+.header{
+    width:100%;
+    height:50px;
+    background:#e74c3c;
+    color:white;
+    position:fixed;
+    z-index:50;
+}
+.upper_header{
+    width:100%;
+    height:30px;
+    background:#e74c3c;
+}
+i.up_icon{
+    width:20px;
+    height:20px;
+    font-size:20px;
+    vertical-align:center;    padding-top: 7px;
+}
+p.icon_p{
+    font-size:6px;
+    line-height:10px;
+}
+.header_logo img{width:100%;height:100%;}
+.header_logo{
+    width:30%;
+    height:50px;
+    background:white;
+    border-bottom:thin dotted gray;
+}
+a{
+    font-size:20px;
+    line-height:30px;
+    text-align:center;
+    color:black;
+
+}
+.header_logo p{
+    font-size:20px;
+    line-height:50px;
+    text-align:center;
+}
+.header_menu{
+    width:70%;
+}
+.header_menu ul{
+    list-style-type:none;
+    width:100%;
+    height:50px;}
+.header_menu ul li {
+    width:24.5%;
+    height:50px;
+    float:left;
+    background:white;
+    text-align:center;
+    border-left:thin dotted gray;border-bottom:thin dotted gray;
+}
+.up_me{width:70%;height:30px;}
+.up_social{width:30%;height:30px;text-align:right;}
+.up_social i{font-size:30px; padding:0 5px 0 5px;}
+.titleber{
+    background-image:url("img/title.gif");
+    width:100%;
+    height:50px;
+    margin-bottom:20px;
+}
+.titleber h4{font-size:20px;padding-left:40px;line-height:50px;}
+
+/* Reset
+----------------------------------------*/
+
+
+/* pinterest grid
+----------------------------------------*/
+.container {
+    margin: 0 auto 25px;
+    position: relative;
+    padding-bottom: 10px;
+    width:100%;
+    height:100%;
+}
+#inner_container{
+    margin-top: 70px;
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.grid {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    float: left;
+    font-size: 12px;
+    margin:10px 10%;
+    min-height: 100px;
+    padding:15px 5%;
+    width: 70%;
+    /*width: 40%;*/
+    height:100%;
+
+    -webkit-transition: top 1s ease, left 1s ease;
+    -moz-transition: top 1s ease, left 1s ease;
+    -o-transition: top 1s ease, left 1s ease;
+    transition: top 1s ease, left 1s ease;
+}
+
+.grid h2 {
+    color: #fa3599;
+    display: block;
+    font-family: "Donegal One", serif;
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 0 0 5px;
+}
+.grid .meta {
+    color: #777;
+    font-style: italic;
+    /*text-align: right;*/
+}
+.grid .imgholder img {
+    background: #ccc;
+    display: inline-block;
+    max-width: 100%;
+}
+.grid .imgholder img + img {
+    margin-left: 31px;
+}
+/* time & api
+-------------------------------------------*/
+.time-item p{
+    font-size:12px;
+}
+
+
+/*Social
+--------------------------------*/
+.social_box{
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    float: left;
+    font-size: 12px;
+    width:    100%;
+    height:40px;
+    /*width: 40%;*/
+
+}
+.social_box ul{
+    width:100%;
+    height:40px;
+    list-style-type:none;
+
+}
+.social_box ul li{
+    float:left;
+    height:30px;
+    list-style-type:none;
+    text-align: center;
+    margin-top:0 auto;
+    line-height:10px;
+    padding-top:10px;
+}
+.facebook_bottun{
+    background:#315096;
+    width:28%;
+}
+.facebook_share{
+    background: #3B5998;
+    width:25%;
+}
+.tweet_button{
+    background:#1B95E0;/*#55acee*/
+    width:25%;
+}
+.line_button{
+    background:#00C300;
+    width:22%;
+}

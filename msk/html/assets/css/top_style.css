@@ -1,0 +1,180 @@
+            .up_me{width:70%;height:30px;}
+            .up_social{width:30%;height:30px;text-align:right;}
+            .up_social i{font-size:30px; padding:0 5px 0 5px;}
+            .titleber{
+                background-image:url("../img/title.gif");
+                width:100%;
+                height:50px;
+                margin-bottom:20px;
+            }
+            .titleber h4{font-size:20px;padding-left:40px;line-height:50px;}
+            *{
+                text-decoration:none;
+                padding:0;
+                margin:0;
+            }
+            body{ 
+                font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+                background-image: url(../img/bg-gray.png);
+            }
+            .float_f{float:left;}.clear_b{clear:both;}
+            
+            header{
+                width:100%;
+                height:50px;
+                background:#66ffff;
+                color:white;
+                position:fixed;
+                z-index:50;
+                opacity:0.7;
+            }
+            /*
+            .upper_header{
+                width:100%;
+                height:30px;
+                background:#66ffff;
+            }
+            */
+            i.up_icon{
+                width:20px;
+                height:20px;
+                font-size:20px;
+                vertical-align:center;
+                padding-top: 7px;
+            }
+            p.icon_p{
+                font-size:6px;
+                line-height:10px;
+            }
+            .header_logo img{width:100%;height:100%;}
+            .header_logo{
+                width:30%;
+                height:50px;
+                background:#66ffff/*#fff*/;
+                border-bottom:thin dotted gray;
+            }
+            a{
+                font-size:20px;
+                line-height:30px;
+                text-align:center;
+                color:black;
+
+            }
+            .header_logo p{
+                font-size:20px;
+                line-height:50px;
+                text-align:center;
+            }
+            .header_menu{
+                width:70%;
+            }
+            .header_menu ul{
+                list-style-type:none;
+                width:100%;
+                height:50px;}
+            .header_menu ul li {
+                width:24.5%;
+                height:50px;
+                float:left;
+                background:#66ffff/*#fff*/;
+                text-align:center;
+                border-left:thin dotted gray;border-bottom:thin dotted gray;
+            }
+            /*
+            .header_menu a {
+                border: 1px solid white;
+                border-radius: 10px;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                color: ;
+                width: 30px;
+                padding: 5px 5px;
+                font-size:6px;
+                line-height:50px;
+                text-decoration:none;
+                        }*/
+
+
+            .upper_content{
+                clear:both;
+                padding-top:50px;
+                /*position:absolute;*/
+            }
+            .main-gallery {
+                margin-bottom: 50px;/*?*/
+            }
+            .main-gallery img { 
+                width: 100%;
+                height: 250px;/*臨時の高さ*/
+            }
+            .flow img{
+                width:100%;
+                height:20%;/*臨時の高さ*/
+            }
+            .flow_img{
+                width:38%;
+                height:;
+                background:;
+            }
+            .main-text{
+                width:80%;margin:0 10%;
+            }
+            .flow_1,.flow_2,.flow_3{
+                width:94%;
+                height:100px;
+                clear:both;
+                margin:0 3% 3% 15px;
+            }
+            .flow p{padding:5px;}
+            .flow_text{
+                height:100px;
+                background:#ecf0f1;
+                width:60%;margin:;
+            }
+            /* 左三角半分 */
+            .bubble {
+                display:inline-block;
+                position: relative;
+                padding:1em;
+                border-radius:5px;
+                background:#fff;
+                width:50%;
+                color:#34495e;
+            }
+            .bubble:after {
+                position: absolute;
+                content: " ";
+                height: 0;
+                width: 0;
+            }
+            .bubble-half-left:after {
+                right: 100%;
+                top: 50%;;
+                border-top:10px solid #fff;
+                border-left:10px solid transparent;
+            }
+            .bubble-half-right:after {
+                left: 100%;
+                top: 50%;
+                border-top:10px solid #fff;
+                border-right:10px solid transparent;
+            }
+            .btn{
+                text-align:center;
+                color:white;
+                background:#e74c3c;
+                width:45%;
+                border:thin dotted white;
+                height:50px;
+                margin:25px 2%;
+                border-radius:5px;
+
+            }
+            .footer{
+                background:#e74c3c;
+                text-align:center;
+                line-height:300px;
+                clear:both;
+                color:white;
+
+            }
